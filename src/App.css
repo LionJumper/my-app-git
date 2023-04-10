@@ -1,0 +1,106 @@
+div{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.header{
+
+background-color: beige;
+grid-area: a1;
+padding: 15px 0px 0px 20px;
+
+}
+.nav{
+  
+  background-color:antiquewhite;
+grid-area: a2;
+}
+
+.picture{
+ 
+  background: -webkit-linear-gradient(45deg, rgb(217, 202, 164) 35%, rgb(237, 233, 167));
+  background: -moz-linear-gradient(45deg, rgb(217, 202, 164) 35%, rgb(237, 233, 167));
+  background: linear-gradient(45deg, rgb(217, 202, 164) 35%, rgb(237, 233, 167));
+  background-size: cover;
+grid-area: a3;
+width: 200px;
+
+}
+
+.about{
+  padding-left: 30px;
+  background: -webkit-linear-gradient(45deg, rgb(217, 202, 164) 35%, rgb(237, 233, 167));
+  background: -moz-linear-gradient(45deg, rgb(217, 202, 164) 35%, rgb(237, 233, 167));
+  background: linear-gradient(45deg, rgb(217, 202, 164) 35%, rgb(237, 233, 167));
+grid-area: a4;
+
+}
+
+.App-Wrapper{
+  display: grid;
+  grid-template-areas: 
+  "a1 a1 a1" 
+  "a2 a3 a4";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 5fr 5fr 20fr;
+  grid-gap: 10px;
+  width: 1200px;
+}
+
+.nav__item{
+  padding: 10px 0px 10px 30px;
+}
+
+.nav__item:hover{
+background-color: bisque;
+}
+
+
+.Tree{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  margin: 20px 0px 0px 20px;
+  
+}
+li{
+  list-style-type: georgian;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
