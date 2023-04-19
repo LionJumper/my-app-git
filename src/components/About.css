@@ -1,0 +1,8 @@
+.about{
+    padding-left: 31px;
+    background: -webkit-linear-gradient(45deg, rgb(217, 202, 164) 35%, rgb(237, 233, 167));
+    background: -moz-linear-gradient(45deg, rgb(217, 202, 164) 35%, rgb(237, 233, 167));
+    background: linear-gradient(45deg, rgb(217, 202, 164) 35%, rgb(237, 233, 167));
+  grid-area: a4;
+  
+  }

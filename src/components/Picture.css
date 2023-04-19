@@ -1,0 +1,18 @@
+.picture{
+ 
+    background: -webkit-linear-gradient(45deg, rgb(217, 202, 164) 35%, rgb(237, 233, 167));
+    background: -moz-linear-gradient(45deg, rgb(217, 202, 164) 35%, rgb(237, 233, 167));
+    background: linear-gradient(45deg, rgb(217, 202, 164) 35%, rgb(237, 233, 167));
+    background-size: cover;
+  grid-area: a3;
+  width: 200px;
+  
+  }
+
+  .Tree{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: 20px 0px 0px 20px;
+    
+  }

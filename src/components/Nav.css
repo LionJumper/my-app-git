@@ -1,0 +1,13 @@
+.nav{
+  
+    background-color:antiquewhite;
+  grid-area: a2;
+  }
+
+  .nav__item{
+    padding: 10px 0px 10px 30px;
+  }
+  
+  .nav__item:hover{
+  background-color: bisque;
+  }
