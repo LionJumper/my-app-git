@@ -1,8 +1,8 @@
 import React from 'react';
-import './Header.css';
+import header from './Header.module.css';
 
 const Header = () => {
-    return (<header className="header">
+    return (<header className={header.header}>
       Nuclear Station
         </header>);
 }

@@ -1,0 +1,21 @@
+.post{
+    grid-area: a5;
+    width: 100px;
+    height: 100px;
+    }
+
+.posts{
+
+}
+.head{
+    color:aquamarine;
+}
+
+.new{
+    color: cadetblue;
+}
+
+.item{
+    color:burlywood;
+
+}

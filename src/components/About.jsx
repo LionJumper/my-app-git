@@ -1,9 +1,9 @@
 import React from 'react';
-import './About.css';
+import about from './About.module.css';
 
 const About = () => {
     return(
-        <div className='about'>
+        <div className={about.about}>
             <p>Dmitriy Kozyrenko</p>
             <p>25 years old</p>
             <p>Homel, Belarus</p>
