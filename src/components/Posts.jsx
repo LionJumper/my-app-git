@@ -13,7 +13,7 @@ const Posts = ()=>{
             <p className={posts.new}>New Posts</p>
             <div className={posts.posts}>
 
-               <Post message="'Allabadi'"/>
+               <Post text='DimAss! I am supermanprogrammer!!!' like='25' message="'Allabadi'"/>
                <Post />
                <Post />
                <Post />

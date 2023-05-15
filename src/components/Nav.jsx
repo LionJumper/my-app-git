@@ -4,11 +4,11 @@ import nav from './Nav.module.css';
 const Navbar = () =>{
     return(
         <nav className={nav.nav}>
-            <div className={nav.nav__item}><a>Profile</a></div>
-            <div className={nav.nav__item}><a>Messages</a></div>
-            <div className={nav.nav__item}><a>News</a></div>
-            <div className={nav.nav__item}><a>Music</a></div>
-            <div className={nav.nav__item}><a>Settings</a></div>
+            <div className={nav.nav__item}><a  href="/Profile">Profile</a></div>
+            <div  className={nav.nav__item}><a href="/Messages">Messages</a></div>
+            <div  className={nav.nav__item}><a href="/News">News</a></div>
+            <div  className={nav.nav__item}><a href="/Music">Music</a></div>
+            <div  className={nav.nav__item}><a href="/Settings">Settings</a></div>
         </nav>
     );
 }

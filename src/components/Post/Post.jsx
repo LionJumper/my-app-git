@@ -7,9 +7,9 @@ const Post =(props)=>{
     return(
         <div className={post.item}> 
         <img src="avadimass.jpg" alt="" />    
-        I'm started learn to React development
+        {props.text}
                 <div>
-                    <span>like</span>
+                    <span>{props.like}</span>
                 </div>
             </div>
     );
